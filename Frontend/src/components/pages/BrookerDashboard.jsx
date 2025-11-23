@@ -101,11 +101,8 @@ const BrokerDashboard = () => {
       {/* Navbar */}
       <nav className="bg-white shadow sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
-          <div
-            className="inline-flex items-center gap-1 font-bold text-indigo-700 text-xl cursor-pointer"
-            onClick={() => navigate("/")}
-          >
-            Esy<span className="text-yellow-500">PG</span>
+         <div className="inline-flex items-center justify-center rounded-xl bg-indigo-700 text-white px-3 py-1 font-extrabold shadow">
+            esy<span className="bg-white text-yellow-500 rounded-md px-1 ml-1">PG</span>
           </div>
 
           <div className="flex items-center gap-4">
